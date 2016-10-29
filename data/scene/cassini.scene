@@ -192,7 +192,7 @@ function postInitialization()
     openspace.setPropertyValue("Earth.RenderableGlobe.Atmosphere", true);
 
     openspace.printInfo("Done setting default values")
-    openspace.loadMission("${OPENSPACE_DATA}/scene/osirisrex/osirisrex/osirisrex.mission")
+    openspace.loadMission("${OPENSPACE_DATA}/scene/cassini/cassini.mission")
 
     openspace.time.setTime(startTime)
     openspace.time.setDeltaTime(0)
