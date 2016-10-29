@@ -44,15 +44,12 @@ function postInitialization()
     openspace.setPropertyValue('67P.renderable.performShading', false);
 
     openspace.printInfo("Done setting default values")
-<<<<<<< 6f54c7d5416b4db9b18a23bb20e20926c0073f6e
     openspace.loadMission("${OPENSPACE_DATA}/scene/cassini/cassini.mission")
 
     openspace.time.setTime(startTime)
     openspace.time.setDeltaTime(0)
 
     openspace.resetCameraDirection()
-=======
->>>>>>> will's changes
 end
 
 return {
