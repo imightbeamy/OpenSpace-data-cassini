@@ -1,0 +1,85 @@
+MAG I-KERNEL
+===========================================================================
+
+   This instrument kernel (I-kernel) is a prototype delivered to PDT for
+   development work.  It is not intended for any other usage.
+
+   \begindata
+
+   TEXT_KERNEL_ID = 'CASSINI_MAG PROTOTYPE 26-JUNE-2000 IK'
+
+
+   INS-82350_FOV_FRAME             = 'CASSINI_MAG_PLUS'
+   INS-82350_FOV_SHAPE             = 'CIRCLE'
+   INS-82350_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82350_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.0, 1.0 )
+
+   INS-82351_FOV_FRAME             = 'CASSINI_MAG_MINUS'
+   INS-82351_FOV_SHAPE             = 'CIRCLE'
+   INS-82351_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82351_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.0, 1.0 )
+
+   INS-82352_FOV_FRAME             = 'CASSINI_MAG_PLUS'
+   INS-82352_FOV_SHAPE             = 'CIRCLE'
+   INS-82352_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82352_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.732050808, 1.0 )
+
+   INS-82353_FOV_FRAME             = 'CASSINI_MAG_MINUS'
+   INS-82353_FOV_SHAPE             = 'CIRCLE'
+   INS-82353_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82353_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.732050808, 1.0 )
+
+
+   INS-82350_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82350_PIXEL_SAMPLES         = ( 1 )
+   INS-82350_PIXEL_LINES           = ( 1 )
+
+   INS-82351_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82351_PIXEL_SAMPLES         = ( 1 )
+   INS-82351_PIXEL_LINES           = ( 1 )
+
+   INS-82352_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82352_PIXEL_SAMPLES         = ( 1 )
+   INS-82352_PIXEL_LINES           = ( 1 )
+
+   INS-82353_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82353_PIXEL_SAMPLES         = ( 1 )
+   INS-82353_PIXEL_LINES           = ( 1 )
+
+
+   INS-82350_MODE_NAME             = 'NOMINAL'
+   INS-82350_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82350_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82351_MODE_NAME             = 'NOMINAL'
+   INS-82351_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82351_CYCLE_DURATION        = '0:01:00.0'
+
+   INS-82352_MODE_NAME             = 'NOMINAL'
+   INS-82352_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82352_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82353_MODE_NAME             = 'NOMINAL'
+   INS-82353_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82353_CYCLE_DURATION        = '0:01:00.0'
+
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_MAG_45PX' )
+   NAIF_BODY_CODE                 += ( -82350 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_MAG_45MX' )
+   NAIF_BODY_CODE                 += ( -82351 )
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_MAG_60PX' )
+   NAIF_BODY_CODE                 += ( -82352 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_MAG_60MX' )
+   NAIF_BODY_CODE                 += ( -82353 )
+
+
+   INS-82350_PLATFORM_ID           = ( -82000 )
+   INS-82351_PLATFORM_ID           = ( -82000 )
+   INS-82352_PLATFORM_ID           = ( -82000 )
+   INS-82353_PLATFORM_ID           = ( -82000 )
+
+   \begintext

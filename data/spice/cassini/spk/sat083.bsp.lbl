@@ -1,0 +1,95 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "sat083.xsp"
+PRODUCT_CREATION_TIME        = 1997-253T08:27:19
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2004-01-01T23:58:58
+STOP_TIME                    = 2013-01-07T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = 0
+SPACECRAFT_CLOCK_STOP_COUNT  = 0
+TARGET_NAME                  = {
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN",
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; sat083.bsp LOG FILE
+;
+; Created 1997-05-09/11:28:47.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+SPK_FILE            = sat083.bsp
+  SOURCE_NIO_FILE   = /cnav/inputs/ephem/sat083.nio
+    BODIES          = 601 602 603 604 605 606 607 608 609 699
+    BEGIN_TIME      = CAL-ET 2004 JAN 02 00:00:00.000
+    END_TIME        = CAL-ET 2013 JAN 08 00:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+\beginlabel
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "sat083.xsp"
+PRODUCT_CREATION_TIME        = 1997-05-09T11:31:37
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2004-01-01T23:58:58
+STOP_TIME                    = 2013-01-07T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN",
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+\endlabel
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0051)
+ 
+ 
+Summary for: sat083.bsp
+ 
+Bodies         Start of Interval (ET)          End of Interval (ET)
+-------        -----------------------------   -----------------------------
+601 MIMAS      2004 JAN 02 00:00:00.000        2013 JAN 08 00:00:00.000
+602 ENCELADUS              Same coverage as previous object
+603 TETHYS                 Same coverage as previous object
+604 DIONE                  Same coverage as previous object
+605 RHEA                   Same coverage as previous object
+606 TITAN                  Same coverage as previous object
+607 HYPERION               Same coverage as previous object
+608 IAPETUS                Same coverage as previous object
+609 PHOEBE                 Same coverage as previous object
+699 SATURN                 Same coverage as previous object

@@ -1,0 +1,33 @@
+current: (cas_v31.tf)
+
+   Date: August 9, 2001
+   Notes:
+    -- The updated frame kernel should be used with this I-kernel set.
+
+   Date: May 4, 2001
+   Notes:
+    -- Updated all I-kernel FOV definitions to utilize the new ANGLES spec.
+       To use GETFOV with these FOV definitions requires the N0052 version
+       of GETFOV.  Contact Scott Turner (sturner@spice.jpl.nasa.gov) to
+       obtain a pre-release version.  N0052 is scheduled for delivery to 
+       the Cassini project the first week of July 2001.
+    -- Added the SRU I-kernel.
+    -- Minor documentation updates and corrections.
+
+release.03: (cas_v29.tf)
+
+   Date: November 16, 2000
+   Notes: 
+    -- Updates to INMS and RSS I-kernel as a result of kernel review.
+
+release.02: (cas_v28.tf)
+
+   Date: October 11, 2000
+   Notes:
+    -- First official kernel release for instrument team review.
+   
+release.01: (cas_v27.tf)
+
+   Date: August 17, 2000
+   Notes: 
+    -- Prototype kernel release.

@@ -1,0 +1,51 @@
+INMS I-KERNEL
+===========================================================================
+
+   This instrument kernel (I-kernel) is a prototype delivered to PDT for
+   development work.  It is not intended for any other usage.
+
+   \begindata
+
+   TEXT_KERNEL_ID = 'CASSINI_INMS PROTOTYPE 15-MAY-2000 IK'
+
+
+   INS-82740_FOV_FRAME             = 'CASSINI_INMS'
+   INS-82740_FOV_SHAPE             = 'CIRCLE'
+   INS-82740_BORESIGHT             = ( 0.0, 0.0,         1.0 )
+   INS-82740_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.140540835, 1.0 )
+
+   INS-82741_FOV_FRAME             = 'CASSINI_INMS'
+   INS-82741_FOV_SHAPE             = 'CIRCLE'
+   INS-82741_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82741_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.0, 0.0 )
+
+
+   INS-82740_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82740_PIXEL_SAMPLES         = ( 1 )
+   INS-82740_PIXEL_LINES           = ( 1 )
+
+   INS-82741_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82741_PIXEL_SAMPLES         = ( 1 )
+   INS-82741_PIXEL_LINES           = ( 1 )
+
+
+   INS-82740_MODE_NAME             = 'MASS_RANGE'
+   INS-82740_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82740_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82741_MODE_NAME             = 'MASS_RANGE'
+   INS-82741_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82741_CYCLE_DURATION        = '0:01:00.0'
+
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_INMS_OPEN' )
+   NAIF_BODY_CODE                 += ( -82740 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_INMS_CLOSED' )
+   NAIF_BODY_CODE                 += ( -82741 )
+
+
+   INS-82740_PLATFORM_ID           = ( -82000 )
+   INS-82741_PLATFORM_ID           = ( -82000 )
+
+   \begintext

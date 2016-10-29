@@ -1,0 +1,1148 @@
+KPL/PCK
+
+
+
+
+
+
+ 
+           \begindata
+ 
+           TEXT_KERNEL_ID += 'CASSINI_ROCKS V3.0 29 MAY 2003 PCK'
+ 
+           \begintext
+
+
+Cassini Spacecraft Planetary Constants Kernel for small satellites
+==============================================================================
+ The TEXT_KERNEL_ID stores version information of loaded project text
+   kernels. Each entry associated with the keyword is a string that consists
+   of four parts: the kernel name, version, entry date, and type. For example,
+   the ISS I-kernel might have an entry as follows:
+ 
+           TEXT_KERNEL_ID += 'CASSINI_ISS V0.0.0 29-SEPTEMBER-1999 IK'
+                                  |          |         |            |
+                                  |          |         |            |
+              KERNEL NAME <-------+          |         |            |
+                                             |         |            V
+                             VERSION <-------+         |       KERNEL TYPE
+                                                       |
+                                                       V
+                                                  ENTRY DATE
+ 
+
+   This frame kernel contains the constants for small satellites (rocks) of
+   Saturn.
+
+  Refer to the notes at the bottom of the file for help, contacts, version
+  history,references, and Cassini-specific parameter descriptions. 
+
+Disclaimer - 
+   Many of the values described in this file are not known at the present time.
+   For these cases 'placeholder' values have been supplied that are simply
+   guesses. For the first attempt, values for Pan and Amalthea are used for
+   all bodies. It is anticipated that updates to these quantities will occur
+   as knowledge increases. Note that this file may be readily modified by you
+   or anyone else. NAIF suggests that you inspect this file visually before
+   proceeding with any critical or extended data processing.
+
+
+Body numbers and names
+----------------------------------------------------------
+ 
+   The following are preliminary names and corresponding body ID codes for
+   rocks found to date:
+ 
+               619  s1   620  s2     621  s3   622  s4     623  s5
+ 
+               624  s6   625  s7     626  s8   627  s9     628  s10
+ 
+               629  s11  630  s12
+ 
+s1
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 619 )
+            NAIF_BODY_NAME       += ( 'S1' )
+ 
+            BODY619_RADII         = (    10       10        10    )
+ 
+            BODY619_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY619_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY619_PM            = (   48.8   +626.0440000   0.  )
+            BODY619_LONG_AXIS     = (     0.                      )
+ 
+            BODY619_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY619_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY619_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s2
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 620 )
+            NAIF_BODY_NAME       += ( 'S2' )
+ 
+            BODY620_RADII         = (    10       10        10    )
+ 
+            BODY620_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY620_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY620_PM            = (   48.8   +626.0440000   0.  )
+            BODY620_LONG_AXIS     = (     0.                      )
+ 
+            BODY620_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY620_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY620_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s3
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 621 )
+            NAIF_BODY_NAME       += ( 'S3' )
+ 
+            BODY621_RADII         = (    10       10        10    )
+ 
+            BODY621_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY621_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY621_PM            = (   48.8   +626.0440000   0.  )
+            BODY621_LONG_AXIS     = (     0.                      )
+ 
+            BODY621_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY621_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY621_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s4
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 622 )
+            NAIF_BODY_NAME       += ( 'S4' )
+ 
+            BODY622_RADII         = (    10       10        10    )
+ 
+            BODY622_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY622_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY622_PM            = (   48.8   +626.0440000   0.  )
+            BODY622_LONG_AXIS     = (     0.                      )
+ 
+            BODY622_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY622_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY622_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s5
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 623 )
+            NAIF_BODY_NAME       += ( 'S5' )
+ 
+            BODY623_RADII         = (    10       10        10    )
+ 
+            BODY623_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY623_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY623_PM            = (   48.8   +626.0440000   0.  )
+            BODY623_LONG_AXIS     = (     0.                      )
+ 
+            BODY623_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY623_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY623_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s6
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 624 )
+            NAIF_BODY_NAME       += ( 'S6' )
+ 
+            BODY624_RADII         = (    10       10        10    )
+ 
+            BODY624_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY624_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY624_PM            = (   48.8   +626.0440000   0.  )
+            BODY624_LONG_AXIS     = (     0.                      )
+ 
+            BODY624_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY624_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY624_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s7
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 625 )
+            NAIF_BODY_NAME       += ( 'S7' )
+ 
+            BODY625_RADII         = (    10       10        10    )
+ 
+            BODY625_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY625_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY625_PM            = (   48.8   +626.0440000   0.  )
+            BODY625_LONG_AXIS     = (     0.                      )
+ 
+            BODY625_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY625_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY625_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s8
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 626 )
+            NAIF_BODY_NAME       += ( 'S8' )
+ 
+            BODY626_RADII         = (    10       10        10    )
+ 
+            BODY626_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY626_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY626_PM            = (   48.8   +626.0440000   0.  )
+            BODY626_LONG_AXIS     = (     0.                      )
+ 
+            BODY626_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY626_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY626_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s9
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 627 )
+            NAIF_BODY_NAME       += ( 'S9' )
+ 
+            BODY627_RADII         = (    10       10        10    )
+ 
+            BODY627_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY627_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY627_PM            = (   48.8   +626.0440000   0.  )
+            BODY627_LONG_AXIS     = (     0.                      )
+ 
+            BODY627_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY627_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY627_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s10
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 628 )
+            NAIF_BODY_NAME       += ( 'S10' )
+ 
+            BODY628_RADII         = (    10       10        10    )
+ 
+            BODY628_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY628_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY628_PM            = (   48.8   +626.0440000   0.  )
+            BODY628_LONG_AXIS     = (     0.                      )
+ 
+            BODY628_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY628_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY628_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s11
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 629 )
+            NAIF_BODY_NAME       += ( 'S11' )
+ 
+            BODY629_RADII         = (    10       10        10    )
+ 
+            BODY629_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY629_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY629_PM            = (   48.8   +626.0440000   0.  )
+            BODY629_LONG_AXIS     = (     0.                      )
+ 
+            BODY629_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY629_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY629_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s12
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 630 )
+            NAIF_BODY_NAME       += ( 'S12' )
+ 
+            BODY630_RADII         = (    10       10        10    )
+ 
+            BODY630_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY630_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY630_PM            = (   48.8   +626.0440000   0.  )
+            BODY630_LONG_AXIS     = (     0.                      )
+ 
+            BODY630_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY630_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY630_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+-------- URLS and CONTACTS
+
+
+Description of PCK format and contents can be found in NAIF's PCK "required
+reading" document, at:
+
+ftp://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/ascii/individual_docs/pck.req
+
+NAIF tutorial on PCK formatting:
+ftp://naif.jpl.nasa.gov/pub/naif/toolkit_docs/Tutorials/office/individual_docs/17_
+pck.ppt
+
+The Cassini PCK & ephemeris files can be found on the DOM, and at:
+ftp://naif.jpl.nasa.gov/pub/naif/CASSINI/kernels/pck
+
+Lee Elson, NAIF/JPL, (818)-354-4223, Lee.Elson@jpl.nasa.gov
+Diane Conner, Cassini/JPL, (818)354-8586 Diane.Conner@jpl.nasa.gov
+
+
+-------- VERSION HISTORY
+
+2003 May 29 (published)
+
+  1. Changed the body names to be Upper Case.
+  2. Changed LDPOOL to FURNISH, in the file loading instructions. 
+   
+By: Diane Conner
+
+
+
+2003 Mar 21 (Not published)
+Initial
+
+  1. Rearranged data in the file to follow model developed by Mission Planning
+     for the PCK file. 
+  2. Added reference to corresponding SPK file.
+   
+By: Diane Conner
+
+ 
+References
+----------------------------------------------------------
+ 
+            1.   ``PCK-kernel Required Reading''
+ 
+            2.   ``Kernel Pool Required Reading''
+ 
+            3.   ``Frames Required Reading''
+ 
+            4.   Email from Diane Conner regarding targeting small satellites,
+                 or rocks, of Saturn.
+
+            5.  Jacobson, R.A., SPK file sat125.bsp.
+ 
+Implementation Notes
+----------------------------------------------------------
+ 
+   This file is used by the SPICE system as follows: programs that make use of
+   this frame kernel must `load' the kernel, normally during program
+   initialization. Loading the kernel associates data items with their names
+   in a data structure called the `kernel pool'. The SPICELIB routine FURNISH
+   loads a kernel file into the pool as shown below:
+
+             CALL FURNSH ( <pck file name>)        FORTRAN version
+             furnish_c   (<pck file name>);        C version
+
+   In order for a program or subroutine to extract data from the pool, the
+   SPICELIB routines GDPOOL and GIPOOL are used. See [2] for more details.
+ 
+   This file was created and may be updated with a text editor or word
+   processor.
+ 
+ 
+Assumptions
+----------------------------------------------------------
+ 
+   This file contains constants used to model the orientation and shape of
+   satellites. The orientation models express the direction of the pole and
+   location of the prime meridian of a body as a function of time. The shape
+   models represent all bodies as ellipsoids, using two equatorial radii and a
+   polar radius. Spheroids and spheres are obtained when two or all three
+   radii are equal.
+ 
+ 
+Orientation models
+----------------------------------------------------------
+ 
+   All of the orientation models use three Euler angles to describe body
+   orientation. To be precise, the Euler angles describe the orientation of
+   the coordinate axes of the `Body Equator and Prime Meridian' system with
+   respect to an inertial system. By default, the inertial system is J2000
+   (also called `EME2000'), but other frames can be specified in the file. See
+   the PCK Required Reading for details.
+ 
+   The first two angles, in order, are the right ascension and declination
+   (henceforth RA and DEC) of the north pole of a body as a function of time.
+   The third angle is the prime meridian location (represented by `W'), which
+   is expressed as a rotation about the north pole, and is also a function of
+   time.
+ 
+   In this file, the time arguments in expressions always refer to Barycentric
+   Dynamical Time (TDB), measured in centuries or days past the a reference
+   epoch. By default, the reference epoch is the J2000 epoch, which is Julian
+   ephemeris date 2451545.0, but other epochs can be specified in the file.
+   See the PCK Required Reading for details.
+ 
+   Example: 1991 IAU Model for orientation of the Earth. Note that these
+   values are used as an example only; see the data area below for current
+   values.
+ 
+ 
+              alpha   =   0.00 - 0.641 T             ( RA )
+                   0
+ 
+              delta   =  90.0  - 0.557 T             ( DEC )
+                   0
+              W       =  190.16 + 360.9856235 d      ( Prime meridian )
+ 
+ 
+              T represents centuries past J2000 ( TDB ),
+ 
+              d represents days past J2000 ( TDB ).
+ 
+   In this file, the polynomials' coefficients above are assigned to the
+   symbols
+ 
+ 
+              BODY399_POLE_RA
+              BODY399_POLE_DEC
+              BODY399_POLE_PM
+ 
+ 
+   as follows:
+ 
+              BODY399_POLE_RA        = (    0.      -0.641         0. )
+              BODY399_POLE_DEC       = (  +90.      -0.557         0. )
+              BODY399_PM             = (  190.16  +360.9856235     0. )
+ 
+   You'll see an additional symbol grouped with the ones listed here; it is
+ 
+ 
+              BODY399_LONG_AXIS
+ 
+ 
+   This term is zero for all bodies except Mars. It represents the offset
+   between the longest axis of the triaxial ellipsoid used to model a body and
+   the prime meridian of the body.
+ 
+   In addition to polynomial terms, there are trigonometric terms. The
+   arguments of the trigonometric terms are linear polynomials. In this file,
+   we call the arguments of these trigonometric terms `nutation precession
+   angles'.
+ 
+   In this file, the polynomial expressions for the nutation precession angles
+   are listed along with the planet's RA, DEC, and prime meridian terms.
+ 
+   Example: 1991 IAU nutation precession angles for Earth. Note that these
+   values are used as an example only; see the data area below for current
+   values.
+ 
+              E1 = 125.045 -  0.052992 d
+              E2 = 250.090 -  0.105984 d
+              E3 = 260.008 + 13.012001 d
+              E4 = 176.625 + 13.340716 d
+              E5 = 357.529 +  0.985600 d
+ 
+              d represents days past J2000 ( TDB )
+ 
+ 
+   Because the NAIF Toolkit software expects the time units for the angles to
+   be CENTURIES (as in the IAU models for most bodies--the Earth is an
+   exception), the linear coefficients are scaled by 36525.0 in the
+   assignments:
+ 
+              BODY3_NUT_PREC_ANGLES  = (  125.045    -1935.5328
+                                          250.090    -3871.0656
+                                          260.008 475263.336525
+                                          176.625   487269.6519
+                                          357.529    35999.04     )
+ 
+ 
+   As stated above, the satellite orientation models use polynomial and
+   trigonometric terms, where the arguments of the trigonometric terms are the
+   `nutation precession angles'.
+ 
+   Example: 1988 IAU values for the Moon. Again, these values are used as an
+   example only; see the data area below for current values.
+ 
+ 
+           alpha = 270.000 + 0.003 T  -  3.878 sin(E1) - 0.120 sin(E2)
+                0
+                                      +  0.070 sin(E3) - 0.017 sin(E4) (RA)
+ 
+ 
+           delta = 66.541  + 0.013 T  +  1.543 cos(E1) + 0.024 cos(E2)
+                0
+                                      -  0.028 cos(E3) + 0.007 cos(E4) (DEC)
+ 
+ 
+           W     =  38.317   + 13.1763582 d    +  3.558 sin(E1)
+ 
+                                               +  0.121 sin(E2)
+ 
+                                               -  0.064 sin(E3)
+ 
+                                               +  0.016 sin(E4)
+ 
+                                               +  0.025 sin(E5)  ( Prime
+                                                                  meridian )
+ 
+           d represents days past J2000.
+ 
+           E1--E5 are the nutation precession angles.
+ 
+   The polynomial terms are assigned to symbols by the statements
+ 
+ 
+           BODY301_POLE_RA        = (  270.000    0.003        0. )
+           BODY301_POLE_DEC       = (  +66.541    0.013        0. )
+           BODY301_PM             = (   38.317  +13.1763582    0. )
+ 
+ 
+   The coefficients of the trigonometric terms are assigned to symbols by the
+   statements
+ 
+           BODY301_NUT_PREC_RA  = (  -3.878  -0.120  +0.070  -0.017   0.    )
+           BODY301_NUT_PREC_DEC = (  +1.543  +0.024  -0.028  +0.007   0.    )
+           BODY301_NUT_PREC_PM  = (  +3.558  +0.121  -0.064  +0.016  +0.025 )
+ 
+ 
+   Note that for the RA and PM (prime meridian) assignments, the ith term is
+   the coefficient of sin(Ei) in the expression used in the IAU model, while
+   for the DEC assignment, the ith term is the coefficient of cos(Ei) in the
+   expression used in the IAU model.
+ 
+   NAIF software expects the models for satellite orientation to follow the
+   form of the model shown here: the polynomial portions of the RA, DEC, and W
+   expressions are expected to be quadratic, the trigonometric terms for RA
+   and W (satellite prime meridian) are expected to be linear combinations of
+   sines of nutation precession angles, the trigonometric terms for DEC are
+   expected to be linear combinations of cosines of nutation precession
+   angles, and the polynomials for the nutation precession angles themselves
+   are expected to be linear.
+ 
+ 
+Shape models
+----------------------------------------------------------
+ 
+   There is only one kind of shape model supported by the NAIF Toolkit
+   software at present: the triaxial ellipsoid. The 1994 IAU report does not
+   use any other models.
+ 
+   For each body, three radii are listed: The first number is the largest
+   equatorial radius (the length of the semi-axis containing the prime
+   meridian), the second number is the smaller equatorial radius, and the
+   third is the polar radius.
+ 
+   Example: Radii of the Earth.
+ 
+ 
+              BODY399_RADII     = (     6378.14    6378.14      6356.75   )
+ 
+ 
+ 
+KPL/FK
+ 
+           \begindata
+ 
+           TEXT_KERNEL_ID += 'CASSINI_ROCKS V3.0 29 MAY 2003 PCK'
+ 
+           \begintext
+
+
+Cassini Spacecraft Planetary Constants Kernel for small satellites
+==============================================================================
+ The TEXT_KERNEL_ID stores version information of loaded project text
+   kernels. Each entry associated with the keyword is a string that consists
+   of four parts: the kernel name, version, entry date, and type. For example,
+   the ISS I-kernel might have an entry as follows:
+ 
+           TEXT_KERNEL_ID += 'CASSINI_ISS V0.0.0 29-SEPTEMBER-1999 IK'
+                                  |          |         |            |
+                                  |          |         |            |
+              KERNEL NAME <-------+          |         |            |
+                                             |         |            V
+                             VERSION <-------+         |       KERNEL TYPE
+                                                       |
+                                                       V
+                                                  ENTRY DATE
+ 
+
+   This frame kernel contains the constants for small satellites (rocks) of
+   Saturn.
+
+  Refer to the notes at the bottom of the file for help, contacts, version
+  history,references, and Cassini-specific parameter descriptions. 
+
+Disclaimer - 
+   Many of the values described in this file are not known at the present time.
+   For these cases 'placeholder' values have been supplied that are simply
+   guesses. For the first attempt, values for Pan and Amalthea are used for
+   all bodies. It is anticipated that updates to these quantities will occur
+   as knowledge increases. Note that this file may be readily modified by you
+   or anyone else. NAIF suggests that you inspect this file visually before
+   proceeding with any critical or extended data processing.
+
+
+Body numbers and names
+----------------------------------------------------------
+ 
+   The following are preliminary names and corresponding body ID codes for
+   rocks found to date:
+ 
+               619  s1   620  s2     621  s3   622  s4     623  s5
+ 
+               624  s6   625  s7     626  s8   627  s9     628  s10
+ 
+               629  s11  630  s12
+ 
+s1
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 619 )
+            NAIF_BODY_NAME       += ( 'S1' )
+ 
+            BODY619_RADII         = (    10       10        10    )
+ 
+            BODY619_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY619_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY619_PM            = (   48.8   +626.0440000   0.  )
+            BODY619_LONG_AXIS     = (     0.                      )
+ 
+            BODY619_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY619_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY619_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s2
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 620 )
+            NAIF_BODY_NAME       += ( 'S2' )
+ 
+            BODY620_RADII         = (    10       10        10    )
+ 
+            BODY620_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY620_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY620_PM            = (   48.8   +626.0440000   0.  )
+            BODY620_LONG_AXIS     = (     0.                      )
+ 
+            BODY620_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY620_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY620_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s3
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 621 )
+            NAIF_BODY_NAME       += ( 'S3' )
+ 
+            BODY621_RADII         = (    10       10        10    )
+ 
+            BODY621_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY621_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY621_PM            = (   48.8   +626.0440000   0.  )
+            BODY621_LONG_AXIS     = (     0.                      )
+ 
+            BODY621_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY621_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY621_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s4
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 622 )
+            NAIF_BODY_NAME       += ( 'S4' )
+ 
+            BODY622_RADII         = (    10       10        10    )
+ 
+            BODY622_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY622_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY622_PM            = (   48.8   +626.0440000   0.  )
+            BODY622_LONG_AXIS     = (     0.                      )
+ 
+            BODY622_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY622_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY622_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s5
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 623 )
+            NAIF_BODY_NAME       += ( 'S5' )
+ 
+            BODY623_RADII         = (    10       10        10    )
+ 
+            BODY623_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY623_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY623_PM            = (   48.8   +626.0440000   0.  )
+            BODY623_LONG_AXIS     = (     0.                      )
+ 
+            BODY623_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY623_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY623_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s6
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 624 )
+            NAIF_BODY_NAME       += ( 'S6' )
+ 
+            BODY624_RADII         = (    10       10        10    )
+ 
+            BODY624_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY624_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY624_PM            = (   48.8   +626.0440000   0.  )
+            BODY624_LONG_AXIS     = (     0.                      )
+ 
+            BODY624_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY624_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY624_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s7
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 625 )
+            NAIF_BODY_NAME       += ( 'S7' )
+ 
+            BODY625_RADII         = (    10       10        10    )
+ 
+            BODY625_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY625_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY625_PM            = (   48.8   +626.0440000   0.  )
+            BODY625_LONG_AXIS     = (     0.                      )
+ 
+            BODY625_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY625_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY625_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s8
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 626 )
+            NAIF_BODY_NAME       += ( 'S8' )
+ 
+            BODY626_RADII         = (    10       10        10    )
+ 
+            BODY626_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY626_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY626_PM            = (   48.8   +626.0440000   0.  )
+            BODY626_LONG_AXIS     = (     0.                      )
+ 
+            BODY626_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY626_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY626_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s9
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 627 )
+            NAIF_BODY_NAME       += ( 'S9' )
+ 
+            BODY627_RADII         = (    10       10        10    )
+ 
+            BODY627_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY627_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY627_PM            = (   48.8   +626.0440000   0.  )
+            BODY627_LONG_AXIS     = (     0.                      )
+ 
+            BODY627_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY627_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY627_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s10
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 628 )
+            NAIF_BODY_NAME       += ( 'S10' )
+ 
+            BODY628_RADII         = (    10       10        10    )
+ 
+            BODY628_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY628_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY628_PM            = (   48.8   +626.0440000   0.  )
+            BODY628_LONG_AXIS     = (     0.                      )
+ 
+            BODY628_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY628_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY628_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s11
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 629 )
+            NAIF_BODY_NAME       += ( 'S11' )
+ 
+            BODY629_RADII         = (    10       10        10    )
+ 
+            BODY629_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY629_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY629_PM            = (   48.8   +626.0440000   0.  )
+            BODY629_LONG_AXIS     = (     0.                      )
+ 
+            BODY629_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY629_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY629_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+s12
+----------------------------------------------------------
+ 
+ 
+           \begindata
+            NAIF_BODY_CODE       += ( 630 )
+            NAIF_BODY_NAME       += ( 'S12' )
+ 
+            BODY630_RADII         = (    10       10        10    )
+ 
+            BODY630_POLE_RA       = (    40.58    -0.036      0.  )
+            BODY630_POLE_DEC      = (    83.53    -0.004      0.  )
+            BODY630_PM            = (   48.8   +626.0440000   0.  )
+            BODY630_LONG_AXIS     = (     0.                      )
+ 
+            BODY630_NUT_PREC_RA  = ( -0.84  0. 0. 0. 0. 0. 0. 0.  +0.01  )
+            BODY630_NUT_PREC_DEC = ( -0.36  0. 0. 0. 0. 0. 0. 0.   0.    )
+            BODY630_NUT_PREC_PM  = ( +0.76  0. 0. 0. 0. 0. 0. 0.  -0.01  )
+           \begintext
+ 
+ 
+-------- URLS and CONTACTS
+
+
+Description of PCK format and contents can be found in NAIF's PCK "required
+reading" document, at:
+
+ftp://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/ascii/individual_docs/pck.req
+
+NAIF tutorial on PCK formatting:
+ftp://naif.jpl.nasa.gov/pub/naif/toolkit_docs/Tutorials/office/individual_docs/17_
+pck.ppt
+
+The Cassini PCK & ephemeris files can be found on the DOM, and at:
+ftp://naif.jpl.nasa.gov/pub/naif/CASSINI/kernels/pck
+
+Lee Elson, NAIF/JPL, (818)-354-4223, Lee.Elson@jpl.nasa.gov
+Diane Conner, Cassini/JPL, (818)354-8586 Diane.Conner@jpl.nasa.gov
+
+
+-------- VERSION HISTORY
+
+2003 May 29 (published)
+
+  1. Changed the body names to be Upper Case.
+  2. Changed LDPOOL to FURNISH, in the file loading instructions. 
+   
+By: Diane Conner
+
+
+
+2003 Mar 21 (Not published)
+Initial
+
+  1. Rearranged data in the file to follow model developed by Mission Planning
+     for the PCK file. 
+  2. Added reference to corresponding SPK file.
+   
+By: Diane Conner
+
+ 
+References
+----------------------------------------------------------
+ 
+            1.   ``PCK-kernel Required Reading''
+ 
+            2.   ``Kernel Pool Required Reading''
+ 
+            3.   ``Frames Required Reading''
+ 
+            4.   Email from Diane Conner regarding targeting small satellites,
+                 or rocks, of Saturn.
+
+            5.  Jacobson, R.A., SPK file sat125.bsp.
+ 
+Implementation Notes
+----------------------------------------------------------
+ 
+   This file is used by the SPICE system as follows: programs that make use of
+   this frame kernel must `load' the kernel, normally during program
+   initialization. Loading the kernel associates data items with their names
+   in a data structure called the `kernel pool'. The SPICELIB routine FURNISH
+   loads a kernel file into the pool as shown below:
+
+             CALL FURNSH ( <pck file name>)        FORTRAN version
+             furnish_c   (<pck file name>);        C version
+
+   In order for a program or subroutine to extract data from the pool, the
+   SPICELIB routines GDPOOL and GIPOOL are used. See [2] for more details.
+ 
+   This file was created and may be updated with a text editor or word
+   processor.
+ 
+ 
+Assumptions
+----------------------------------------------------------
+ 
+   This file contains constants used to model the orientation and shape of
+   satellites. The orientation models express the direction of the pole and
+   location of the prime meridian of a body as a function of time. The shape
+   models represent all bodies as ellipsoids, using two equatorial radii and a
+   polar radius. Spheroids and spheres are obtained when two or all three
+   radii are equal.
+ 
+ 
+Orientation models
+----------------------------------------------------------
+ 
+   All of the orientation models use three Euler angles to describe body
+   orientation. To be precise, the Euler angles describe the orientation of
+   the coordinate axes of the `Body Equator and Prime Meridian' system with
+   respect to an inertial system. By default, the inertial system is J2000
+   (also called `EME2000'), but other frames can be specified in the file. See
+   the PCK Required Reading for details.
+ 
+   The first two angles, in order, are the right ascension and declination
+   (henceforth RA and DEC) of the north pole of a body as a function of time.
+   The third angle is the prime meridian location (represented by `W'), which
+   is expressed as a rotation about the north pole, and is also a function of
+   time.
+ 
+   In this file, the time arguments in expressions always refer to Barycentric
+   Dynamical Time (TDB), measured in centuries or days past the a reference
+   epoch. By default, the reference epoch is the J2000 epoch, which is Julian
+   ephemeris date 2451545.0, but other epochs can be specified in the file.
+   See the PCK Required Reading for details.
+ 
+   Example: 1991 IAU Model for orientation of the Earth. Note that these
+   values are used as an example only; see the data area below for current
+   values.
+ 
+ 
+              alpha   =   0.00 - 0.641 T             ( RA )
+                   0
+ 
+              delta   =  90.0  - 0.557 T             ( DEC )
+                   0
+              W       =  190.16 + 360.9856235 d      ( Prime meridian )
+ 
+ 
+              T represents centuries past J2000 ( TDB ),
+ 
+              d represents days past J2000 ( TDB ).
+ 
+   In this file, the polynomials' coefficients above are assigned to the
+   symbols
+ 
+ 
+              BODY399_POLE_RA
+              BODY399_POLE_DEC
+              BODY399_POLE_PM
+ 
+ 
+   as follows:
+ 
+              BODY399_POLE_RA        = (    0.      -0.641         0. )
+              BODY399_POLE_DEC       = (  +90.      -0.557         0. )
+              BODY399_PM             = (  190.16  +360.9856235     0. )
+ 
+   You'll see an additional symbol grouped with the ones listed here; it is
+ 
+ 
+              BODY399_LONG_AXIS
+ 
+ 
+   This term is zero for all bodies except Mars. It represents the offset
+   between the longest axis of the triaxial ellipsoid used to model a body and
+   the prime meridian of the body.
+ 
+   In addition to polynomial terms, there are trigonometric terms. The
+   arguments of the trigonometric terms are linear polynomials. In this file,
+   we call the arguments of these trigonometric terms `nutation precession
+   angles'.
+ 
+   In this file, the polynomial expressions for the nutation precession angles
+   are listed along with the planet's RA, DEC, and prime meridian terms.
+ 
+   Example: 1991 IAU nutation precession angles for Earth. Note that these
+   values are used as an example only; see the data area below for current
+   values.
+ 
+              E1 = 125.045 -  0.052992 d
+              E2 = 250.090 -  0.105984 d
+              E3 = 260.008 + 13.012001 d
+              E4 = 176.625 + 13.340716 d
+              E5 = 357.529 +  0.985600 d
+ 
+              d represents days past J2000 ( TDB )
+ 
+ 
+   Because the NAIF Toolkit software expects the time units for the angles to
+   be CENTURIES (as in the IAU models for most bodies--the Earth is an
+   exception), the linear coefficients are scaled by 36525.0 in the
+   assignments:
+ 
+              BODY3_NUT_PREC_ANGLES  = (  125.045    -1935.5328
+                                          250.090    -3871.0656
+                                          260.008 475263.336525
+                                          176.625   487269.6519
+                                          357.529    35999.04     )
+ 
+ 
+   As stated above, the satellite orientation models use polynomial and
+   trigonometric terms, where the arguments of the trigonometric terms are the
+   `nutation precession angles'.
+ 
+   Example: 1988 IAU values for the Moon. Again, these values are used as an
+   example only; see the data area below for current values.
+ 
+ 
+           alpha = 270.000 + 0.003 T  -  3.878 sin(E1) - 0.120 sin(E2)
+                0
+                                      +  0.070 sin(E3) - 0.017 sin(E4) (RA)
+ 
+ 
+           delta = 66.541  + 0.013 T  +  1.543 cos(E1) + 0.024 cos(E2)
+                0
+                                      -  0.028 cos(E3) + 0.007 cos(E4) (DEC)
+ 
+ 
+           W     =  38.317   + 13.1763582 d    +  3.558 sin(E1)
+ 
+                                               +  0.121 sin(E2)
+ 
+                                               -  0.064 sin(E3)
+ 
+                                               +  0.016 sin(E4)
+ 
+                                               +  0.025 sin(E5)  ( Prime
+                                                                  meridian )
+ 
+           d represents days past J2000.
+ 
+           E1--E5 are the nutation precession angles.
+ 
+   The polynomial terms are assigned to symbols by the statements
+ 
+ 
+           BODY301_POLE_RA        = (  270.000    0.003        0. )
+           BODY301_POLE_DEC       = (  +66.541    0.013        0. )
+           BODY301_PM             = (   38.317  +13.1763582    0. )
+ 
+ 
+   The coefficients of the trigonometric terms are assigned to symbols by the
+   statements
+ 
+           BODY301_NUT_PREC_RA  = (  -3.878  -0.120  +0.070  -0.017   0.    )
+           BODY301_NUT_PREC_DEC = (  +1.543  +0.024  -0.028  +0.007   0.    )
+           BODY301_NUT_PREC_PM  = (  +3.558  +0.121  -0.064  +0.016  +0.025 )
+ 
+ 
+   Note that for the RA and PM (prime meridian) assignments, the ith term is
+   the coefficient of sin(Ei) in the expression used in the IAU model, while
+   for the DEC assignment, the ith term is the coefficient of cos(Ei) in the
+   expression used in the IAU model.
+ 
+   NAIF software expects the models for satellite orientation to follow the
+   form of the model shown here: the polynomial portions of the RA, DEC, and W
+   expressions are expected to be quadratic, the trigonometric terms for RA
+   and W (satellite prime meridian) are expected to be linear combinations of
+   sines of nutation precession angles, the trigonometric terms for DEC are
+   expected to be linear combinations of cosines of nutation precession
+   angles, and the polynomials for the nutation precession angles themselves
+   are expected to be linear.
+ 
+ 
+Shape models
+----------------------------------------------------------
+ 
+   There is only one kind of shape model supported by the NAIF Toolkit
+   software at present: the triaxial ellipsoid. The 1994 IAU report does not
+   use any other models.
+ 
+   For each body, three radii are listed: The first number is the largest
+   equatorial radius (the length of the semi-axis containing the prime
+   meridian), the second number is the smaller equatorial radius, and the
+   third is the polar radius.
+ 
+   Example: Radii of the Earth.
+ 
+ 
+              BODY399_RADII     = (     6378.14    6378.14      6356.75   )
+ 
+ 
+ 

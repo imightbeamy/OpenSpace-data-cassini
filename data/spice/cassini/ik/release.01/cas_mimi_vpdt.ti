@@ -1,0 +1,92 @@
+MIMI I-KERNEL
+===========================================================================
+
+   This instrument kernel (I-kernel) is a prototype delivered to PDT for
+   development work.  It is not intended for any other usage.
+
+   \begindata
+
+   TEXT_KERNEL_ID = 'CASSINI_MIMI PROTOTYPE 16-MAY-2000 IK'
+
+
+   INS-82760_FOV_FRAME             = 'CASSINI_MIMI_CHEMS'
+   INS-82760_FOV_SHAPE             = 'RECTANGLE'
+   INS-82760_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82760_FOV_BOUNDARY_CORNERS  = (  0.041912418,  5.395517174, 1.0
+                                       -0.041912418,  5.395517174, 1.0 
+                                       -0.041912418, -5.395517174, 1.0
+                                        0.041912418, -5.395517174, 1.0 )
+
+   INS-82761_FOV_FRAME             = 'CASSINI_MIMI_INCA'
+   INS-82761_FOV_SHAPE             = 'RECTANGLE'
+   INS-82761_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82761_FOV_BOUNDARY_CORNERS  = (  1.0,  1.732050808, 1.0
+                                       -1.0,  1.732050808, 1.0 
+                                       -1.0, -1.732050808, 1.0
+                                        1.0, -1.732050808, 1.0 )
+
+   INS-82762_FOV_FRAME             = 'CASSINI_MIMI_LEMMS1'
+   INS-82762_FOV_SHAPE             = 'CIRCLE'
+   INS-82762_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82762_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.131652498, 1.0 )
+
+   INS-82763_FOV_FRAME             = 'CASSINI_MIMI_LEMMS2'
+   INS-82763_FOV_SHAPE             = 'CIRCLE'
+   INS-82763_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82763_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.267949192, 1.0 )
+
+
+   INS-82760_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82760_PIXEL_SAMPLES         = ( 1 )
+   INS-82760_PIXEL_LINES           = ( 1 )
+
+   INS-82761_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82761_PIXEL_SAMPLES         = ( 1 )
+   INS-82761_PIXEL_LINES           = ( 1 )
+
+   INS-82762_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82762_PIXEL_SAMPLES         = ( 1 )
+   INS-82762_PIXEL_LINES           = ( 1 )
+
+   INS-82763_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82763_PIXEL_SAMPLES         = ( 1 )
+   INS-82763_PIXEL_LINES           = ( 1 )
+
+
+   INS-82760_MODE_NAME             = 'NOMINAL'
+   INS-82760_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82760_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82761_MODE_NAME             = 'NOMINAL'
+   INS-82761_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82761_CYCLE_DURATION        = '0:01:00.0'
+
+   INS-82762_MODE_NAME             = 'NOMINAL'
+   INS-82762_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82762_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82763_MODE_NAME             = 'NOMINAL'
+   INS-82763_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82763_CYCLE_DURATION        = '0:01:00.0'
+
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_MIMI_CHEMS' )
+   NAIF_BODY_CODE                 += ( -82760 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_MIMI_INCA' )
+   NAIF_BODY_CODE                 += ( -82761 )
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_MIMI_LEMMS1' )
+   NAIF_BODY_CODE                 += ( -82762 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_MIMI_LEMMS2' )
+   NAIF_BODY_CODE                 += ( -82763 )
+
+
+   INS-82760_PLATFORM_ID           = ( -82000 )
+   INS-82761_PLATFORM_ID           = ( -82000 )
+   INS-82762_PLATFORM_ID           = ( -82000 )
+   INS-82763_PLATFORM_ID           = ( -82000 )
+
+
+   \begintext

@@ -1,0 +1,23 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = {
+                                 "CAS"
+                               }
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "vvejga_soi2prel_pfile.xsp"
+PRODUCT_CREATION_TIME        = 1996-04-03T10:19:47
+PRODUCER_ID                  = "NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2004-06-25T21:24:41
+STOP_TIME                    = 2004-11-27T09:10:25
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                                 "CAS"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."

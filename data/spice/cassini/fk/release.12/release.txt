@@ -1,0 +1,89 @@
+current:
+   Date: May 10, 2004
+   Notes:
+     --  Modified CASSINI_KABAND  (and therefor CASSINI_XBAND)
+         frame definition to reflect new RSS pointing information. New
+         frame kernel: cas_v38.tf.
+
+release.11
+   Date: November 20, 2003
+   Notes:
+     --  Modified CASSINI_KABAND  (and therefor CASSINI_XBAND)
+         frame definition to reflect new RSS pointing information. New
+         frame kernel: cas_v37.tf.
+
+release.10:
+   Date: April 24, 2003
+   Notes:
+     --  Modified CASSINI_XBAND frame definition so that
+         its values are the same as CASSINI_KABAND. Added
+         a new frame called CASSINI_XBAND_TRUE (NAIF ID
+         -82108) that has the same definition parameters
+         as the old CASSINI_XBAND. Also modified text
+         structure so that changes are dated and stand
+         out better for the human reader.
+
+release.09:
+   Date: October 7, 2002
+   Notes:
+     -- Updated CASSINI_VIMS_IR_SOL, CASSINI_RADAR_2, and 
+        CASSINI_RADAR_4 to reflect current values.
+
+release.08:
+
+   Date: June 11, 2002
+   Notes:
+    -- Updated CASSINI_KABAND, CASSINI_CIRS_FPB, CASSINI_CIRS_FP1,
+       CASSINI_CIRS_FP3, CASSINI_CIRS_FP4, CASSINI_UVIS_HSP,
+       CASSINI_UVIS_EUV, CASSINI_UVIS_FUV, and CASSINI_VIMS_IR frame
+       definitions.
+
+release.07:
+
+   Date: May 10, 2002 
+   Notes:
+    -- Updated the FOVINFO report to include updates to CIRS I-kernel from
+       March 12, 2002.
+
+   Date: February 20, 2002
+   Notes: 
+    -- Updated the frame definition for CASSINI_VIMS_RAD.
+
+release.06:
+
+   Date: January 28, 2002
+   Notes:
+    -- Updated frame definitions for CASSINI_KABAND and CASSINI_XBAND.
+
+release.05:
+
+   Date: August 9, 2001
+   Notes:
+    -- Updated frame definitions for CASSINI_KABAND and CASSINI_XBAND.
+
+release.04:
+
+   Date: May 5, 2001
+   Notes:
+    -- Added support for articulating instruments through multiple paths
+       in the frame kernel.  See fk for details.
+    -- To utilize the new articulation branches, pick up the fixed offset
+       c-kernel at /pub/naif/Cassini/kernels/ck/cas_fix_v00.xc.
+
+release.03: 
+
+   Date: November 16, 2000
+   Notes:
+    -- Updates from first review.
+
+release.02:
+
+   Date: October 11, 2000
+   Notes:
+    -- First official release for review.
+   
+release.01: 
+
+   Date: August 17, 2000
+   Notes:
+    -- Prototype release.

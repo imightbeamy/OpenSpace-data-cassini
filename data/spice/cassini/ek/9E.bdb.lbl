@@ -1,0 +1,28 @@
+ 
+*********** EKGen Runtime Info ***********
+CSPICE_TK_VERSION = CSPICE_N0055
+C_COMPILER = GCC
+JAVA_VM_VERSION = 1.4.2-b28
+OS = SunOS
+OS_VERSION = 5.9
+EKGEN_LOCATION = /afs/jpl/group/casgds/io/ekgen/v2.0/
+EKGEN_VERSION = 2.0
+WORKSTATION = casio3
+ 
+***********    EK File Info    ***********
+MISSION_NAME          = CASSINI
+SPACECRAFT_NAME       = CASSINI
+DATA_SET_ID           = EKERNEL
+EK_FILE_NAME          = ./9E.bdb
+EK_FILE_TYPE          = COMMAND_DICTIONARY
+PRODUCER_ID           = awtinio
+PRODUCT_CREATION_TIME = Wed May 11 01:27:39 GMT 2005
+SEQ_NUMBER            = N_A
+START_TIME            = N_A
+STOP_TIME             = N_A
+NUM_ROWS_CASSINI_CMD_DICT = 4079
+ 
+*********** EK Input File Info ***********
+INPUT_FILE_NAME = 9E.xml
+DATA_SET_ID     = EKSEQIN
+ 
