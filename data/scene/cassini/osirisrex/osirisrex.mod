@@ -1,8 +1,4 @@
-local BENNU_BODY = "2101955"
 
-CassiniKernels = {
-    "${OPENSPACE_DATA}/spice/cassini/spk/000202R_SK_LP0_V1P32.bsp",
-}
 
 return {
     ------------------------
@@ -16,12 +12,12 @@ return {
             Body = "OSIRIS-REX",
             Geometry = {
                 Type = "MultiModelGeometry",
-                GeometryFile = "models/orx_base_resized_12_sep_2016.obj",
+                GeometryFile = "models/Cassini_66.obj",
                 Magnification = 0,
             },
             Textures = {
                 Type = "simple",
-                Color =  "textures/osirisTex.png",
+                Color =  "textures/cassiniTex.png",
             },
             Shading = {
                 PerformShading = true,
@@ -34,7 +30,6 @@ return {
                 Type = "SpiceTranslation",
                 Body = "OSIRIS-REX",
                 Observer = "SUN",
-                Kernels = CassiniKernels,
             },
             Rotation = {
                 Type = "SpiceRotation",
@@ -43,146 +38,6 @@ return {
             },
         },
     },
-    {
-        Name = "ORX_OCAMS_POLYCAM",
-        Parent = "OsirisRex",
-        Renderable = {
-            Type = "RenderableModel",
-            Body = "OSIRIS-REX",
-            Geometry = {
-                Type = "MultiModelGeometry",
-                GeometryFile = "models/orx_polycam_resized_12_sep_2016.obj",
-                Magnification = 0,
-            }, 
-            Textures = {
-                Type = "simple",
-                Color =  "textures/osirisTex.png",
-            },
-            Shading = {
-                PerformShading = true,
-                Fadeable = false,
-                Ghosting = false,
-            },
-        },
-        Transform = {
-            Translation = {
-                Type = "StaticTranslation",
-                Position = {-0.2476, 0.2710, 0.3364},
-            },
-            Rotation = {
-                Type = "SpiceRotation",
-                SourceFrame = "ORX_OCAMS_POLYCAM",
-                DestinationFrame = "ORX_SPACECRAFT",
-            },
-        },
-    },
-    {
-        Name = "ORX_REXIS",
-        Parent = "OsirisRex",
-        Renderable = {
-            Type = "RenderableModel",
-            Body = "OSIRIS-REX",
-            Geometry = {
-                Type = "MultiModelGeometry",
-                GeometryFile = "models/orx_rexis_resized_12_sep_2016.obj",
-                Magnification = 0,
-            }, 
-            Textures = {
-                Type = "simple",
-                Color =  "textures/osirisTex.png",
-            },
-            Shading = {
-                PerformShading = true,
-                Fadeable = false,
-                Ghosting = false,
-            },
-        },
-        Transform = {
-            Translation = {
-                Type = "StaticTranslation",
-                Position = {0, 0.3371, 0.2712},
-            },
-            Rotation = {
-                Type = "SpiceRotation",
-                SourceFrame = "ORX_REXIS",
-                DestinationFrame = "ORX_SPACECRAFT",
-            },
-        },
-    },
-    {
-        Name = "POLYCAM FOV",
-        Parent = "ORX_OCAMS_POLYCAM",
-        Renderable = {
-            Type  = "RenderableFov",
-            Body  = "OSIRIS-REX",
-            Frame = "ORX_OCAMS_POLYCAM",
-            RGB   = { 0.8, 0.7, 0.7 },
-            Instrument = {
-                Name       = "ORX_OCAMS_POLYCAM",
-                Method     = "ELLIPSOID",
-                Aberration = "NONE",
-            },
-            PotentialTargets = {
-                BENNU_BODY -- Bennu
-            }
-        },
-    },
-    { 
-        Name = "REXIS FOV",
-        Parent = "ORX_REXIS",
-        Renderable = {
-            Type  = "RenderableFov",
-            Body  = "OSIRIS-REX",
-            Frame = "ORX_REXIS",
-            RGB   = { 0.8, 0.7, 0.7 },
-            Instrument = {
-                Name       = "ORX_REXIS",
-                Method     = "ELLIPSOID",
-                Aberration = "NONE",
-            },
-            PotentialTargets = {
-                BENNU_BODY -- Bennu
-            }
-        },
-    },
-    --[[
-    -- Latest image taken by POLYCAM
-    { 
-        Name = "ImagePlaneOsirisRex",
-        Parent = "Bennu2",
-        Renderable = {
-            Type = "RenderablePlaneProjection",
-            Frame = "IAU_BENNU",
-            DefaultTarget = BENNU_BODY,
-            Spacecraft = "OSIRIS-REX",
-            Instrument = "ORX_OCAMS_POLYCAM",
-            Moving = false,
-            Texture = "textures/defaultProj.png",
-        },
-        Ephemeris = {
-            Type = "Static",
-            Position = {0, 0, 0, 1}
-        }, 
-    },
-    -- POLYCAM FoV square
-    {
-        Name = "FovImagePlane",
-        Parent = "Bennu2",
-        Renderable = {
-            Type = "RenderablePlaneProjection",
-            Frame = "IAU_BENNU",
-            DefaultTarget = BENNU_BODY,
-            Spacecraft = "OSIRIS-REX",
-            Instrument = "ORX_OCAMS_POLYCAM",
-            Moving = true,
-            Texture = "textures/defaultProj.png",
-        },
-        Ephemeris = {
-            Type = "Static",
-            Position = {0, 0, 0, 1}
-        },
-    },
-    ]]
 
     -- Trail relative to Earth
     {   
