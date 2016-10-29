@@ -158,7 +158,7 @@ function preInitialization()
     openspace.spice.loadKernel("${SPICE}/pck00010.tpc")
 
     dofile(openspace.absPath('${SCRIPTS}/bind_keys.lua'))
-    dofile(openspace.absPath('${SCRIPTS}/bind_keys_osirisrex.lua'))
+    dofile(openspace.absPath('${SCRIPTS}/bind_keys_cassini.lua'))
 
     --local startTime = "2019 APR 16 12:03:00.00"
 
