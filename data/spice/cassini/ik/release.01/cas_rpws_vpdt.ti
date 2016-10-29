@@ -1,0 +1,52 @@
+RPWS I-KERNEL
+===========================================================================
+
+   This instrument kernel (I-kernel) is a prototype delivered to PDT for
+   development work.  It is not intended for any other usage.
+
+   \begindata
+
+   TEXT_KERNEL_ID = 'CASSINI_RPWS PROTOTYPE 06-JULY-2000 IK'
+
+
+   INS-82730_FOV_FRAME             = 'CASSINI_RPWS'
+   INS-82730_FOV_SHAPE             = 'CIRCLE'
+   INS-82730_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82730_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.0, 0.0 )
+
+   INS-82731_FOV_FRAME             = 'CASSINI_RPWS_LP'
+   INS-82731_FOV_SHAPE             = 'CIRCLE'
+   INS-82731_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82731_FOV_BOUNDARY_CORNERS  = ( 0.0, 1.0, 0.0 )
+
+
+   INS-82730_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82730_PIXEL_SAMPLES         = ( 1 )
+   INS-82730_PIXEL_LINES           = ( 1 )
+
+   INS-82731_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82731_PIXEL_SAMPLES         = ( 1 )
+   INS-82731_PIXEL_LINES           = ( 1 )
+
+
+   INS-82730_MODE_NAME             = 'NOMINAL'
+   INS-82730_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82730_CYCLE_DURATION        = '0:01:00.0'
+
+   INS-82731_MODE_NAME             = 'NOMINAL'
+   INS-82731_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82731_CYCLE_DURATION        = '0:01:00.0'
+ 
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_RPWS' )
+   NAIF_BODY_CODE                 += ( -82730 )
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_RPWS_LP' )
+   NAIF_BODY_CODE                 += ( -82731 )
+    
+
+   INS-82730_PLATFORM_ID           = ( -82000 )
+   INS-82731_PLATFORM_ID           = ( -82000 )
+
+
+   \begintext

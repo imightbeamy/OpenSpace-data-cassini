@@ -1,0 +1,124 @@
+current: (cas_v40.tf)
+   Date: November 7, 2008
+   Notes:
+     --   Added name/ID mapping, FOV, and other parameters for
+          CASSINI_UVIS_SOL_OFF/-82849 to UVIS IK. New instrument 
+          kernel: cas_uvis_v06.ti.
+
+     --   Added CASSINI_UVIS_SOL_OFF frame, ID -82849 to 
+          main FK file. New frame kernel: cas_v40.tf.
+
+release.13: (cas_v39.tf)
+   Date: Oct 19, 2004
+   Notes:
+     --   Updated UVIS_EUV, UVIS_FUV and UVIS_HSP frames for slightly
+          modified boresight vectors. The instrument "Y" axis has 
+          also been determined to point along the spacecraft -Z direction
+          instead of + Z. Change is effective beginning at: TIME:
+          2002-266T00:00:00.000 New frame kernel: cas_v39.tf.
+   
+   Date: Dec 5, 2005
+   Notes:
+     --   Updated description of the INS[#]_FOV_CENTER_PIXEL keyword
+          and the pixel layouts in ISS IK. No data are changed.
+
+release.12 (cas_v38.tf)
+   Date: May 10, 2004
+   Notes:
+     --  Modified CASSINI_KABAND  (and therefor CASSINI_XBAND)
+         frame definition to reflect new RSS pointing information. New
+         frame kernel: cas_v38.tf.
+
+release.11 (cas_v37.tf)
+   Date: November 20, 2003
+   Notes:
+     --  Modified CASSINI_KABAND  (and therefor CASSINI_XBAND)
+         frame definition to reflect new RSS pointing information. New
+         frame kernel: cas_v37.tf.
+
+release.10 (cas_v36.tf)
+
+   Date: January  23, 2004
+   Notes:
+     --  Updated ISS focal lengths using inflight calibration results.
+
+release.09 (cas_v35.tf)
+
+   Date: April 18, 2003
+   Notes:
+    -- Added a new instrument, X BAND TRUE, that contains the old X
+       BAND instrument FOV definitions. Altered X BAND definitions
+       so that they are the same as Ka band. This is necessary
+       because of the way that the uplink software uses the
+       information. See the updated frame kernel for more
+       information. The ID for X BAND TRUE is -82186, the name is
+       CASSINI_RSS_HGA_X_TRUE.
+
+release.08 (cas_v34.tf)
+
+   Date: October 7, 2002
+   Notes:
+    -- Updated VIMS radiator FOV reference angle from 90 to 82 degrees.
+
+release.07: (cas_v33.tf)
+
+   Date: June 11, 2002
+   Notes:
+    -- Updated CASSINI_CIRS_FP3, CASSINI_CIRS_FP4, and CASSINI_CIRS_FPB 
+       field of view definitions in cas_cirs_v09.ti.  These updates 
+       reflect a base pixel size of 0.3 milliradians square (as opposed 
+       to the 0.294 milliradian value used previously) and the updates
+       for offsets of the FP3 and FP4 boresights from FPB.
+
+release.06: (cas_v32.tf)
+
+   Date: March 12, 2002
+   Notes:
+    -- Added CASSINI_CIRS_FPB mode timing keywords to cas_cirs_v08.ti.
+
+release.05: (cas_v31.tf)
+
+   Date: February 20, 2002
+   Notes:
+    -- The updated frame kernel should be used with this I-kernel set.
+
+   Date: January 28, 2002
+   Notes:
+    -- Added CASSINI_CIRS_FPB FOV definition to cas_cirs_v07.ti.
+    -- Corrected CASSINI_CIRS_FP3 and CASSINI_CIRS_FP4 FOV definitions.
+    -- N0052 is now available, and users requiring GETFOV or getfov_c 
+       should update their toolkit installations.
+
+release.04: (cas_v30.tf)
+
+   Date: August 9, 2001
+   Notes:
+    -- The updated frame kernel should be used with this I-kernel set.
+
+   Date: May 4, 2001
+   Notes:
+    -- Updated all I-kernel FOV definitions to utilize the new ANGLES spec.
+       To use GETFOV with these FOV definitions requires the N0052 version
+       of GETFOV.  Contact Scott Turner (sturner@spice.jpl.nasa.gov) to
+       obtain a pre-release version.  N0052 is scheduled for delivery to 
+       the Cassini project the first week of July 2001.
+    -- Added the SRU I-kernel.
+    -- Minor documentation updates and corrections.
+
+release.03: (cas_v29.tf)
+
+   Date: November 16, 2000
+   Notes: 
+    -- Updates to INMS and RSS I-kernel as a result of kernel review.
+
+release.02: (cas_v28.tf)
+
+   Date: October 11, 2000
+   Notes:
+    -- First official kernel release for instrument team review.
+   
+release.01: (cas_v27.tf)
+
+   Date: August 17, 2000
+   Notes: 
+    -- Prototype kernel release.

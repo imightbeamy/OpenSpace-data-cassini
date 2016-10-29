@@ -1,0 +1,121 @@
+RSS I-KERNEL
+===========================================================================
+
+   This instrument kernel (I-kernel) is a prototype delivered to PDT for
+   development work.  It is not intended for any other usage.
+
+   \begindata
+
+   TEXT_KERNEL_ID = 'CASSINI_RSS PROTOTYPE 06-JULY-2000 IK'
+
+
+   INS-82180_FOV_FRAME             = 'CASSINI_KABAND'
+   INS-82180_FOV_SHAPE             = 'CIRCLE'
+   INS-82180_BORESIGHT             = ( 0.0, 0.0,         1.0 )
+   INS-82180_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.001660002, 1.0 )
+
+   INS-82181_FOV_FRAME             = 'CASSINI_KUBAND'
+   INS-82181_FOV_SHAPE             = 'CIRCLE'
+   INS-82181_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82181_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.003054336, 1.0 )
+
+   INS-82182_FOV_FRAME             = 'CASSINI_SBAND'
+   INS-82182_FOV_SHAPE             = 'CIRCLE'
+   INS-82182_BORESIGHT             = ( 0.0, 0.0,         1.0 )
+   INS-82182_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.018752198, 1.0 )
+
+   INS-82183_FOV_FRAME             = 'CASSINI_XBAND'
+   INS-82183_FOV_SHAPE             = 'CIRCLE'
+   INS-82183_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82183_FOV_BOUNDARY_CORNERS  = ( 0.0, 0.004885039, 1.0 )
+
+   INS-82184_FOV_FRAME             = 'CASSINI_LGA1'
+   INS-82184_FOV_SHAPE             = 'CIRCLE'
+   INS-82184_BORESIGHT             = ( 0.0, 0.0,         1.0 )
+   INS-82184_FOV_BOUNDARY_CORNERS  = ( 0.0, 8.72665D-5,  1.0 )
+
+   INS-82185_FOV_FRAME             = 'CASSINI_LGA2'
+   INS-82185_FOV_SHAPE             = 'CIRCLE'
+   INS-82185_BORESIGHT             = ( 0.0, 0.0, 1.0 )
+   INS-82185_FOV_BOUNDARY_CORNERS  = ( 0.0, 8.72665D-5,  1.0 )
+
+
+   INS-82180_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82180_PIXEL_SAMPLES         = ( 1 )
+   INS-82180_PIXEL_LINES           = ( 1 )
+
+   INS-82181_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82181_PIXEL_SAMPLES         = ( 1 )
+   INS-82181_PIXEL_LINES           = ( 1 )
+
+   INS-82182_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82182_PIXEL_SAMPLES         = ( 1 )
+   INS-82182_PIXEL_LINES           = ( 1 )
+
+   INS-82183_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82183_PIXEL_SAMPLES         = ( 1 )
+   INS-82183_PIXEL_LINES           = ( 1 )
+
+   INS-82184_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82184_PIXEL_SAMPLES         = ( 1 )
+   INS-82184_PIXEL_LINES           = ( 1 )
+
+   INS-82185_FOV_CENTER_PIXEL      = ( 0, 0 )
+   INS-82185_PIXEL_SAMPLES         = ( 1 )
+   INS-82185_PIXEL_LINES           = ( 1 )
+
+
+   INS-82180_MODE_NAME             = 'NOMINAL'
+   INS-82180_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82180_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82181_MODE_NAME             = 'NOMINAL'
+   INS-82181_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82181_CYCLE_DURATION        = '0:01:00.0'
+
+   INS-82182_MODE_NAME             = 'NOMINAL'
+   INS-82182_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82182_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82183_MODE_NAME             = 'NOMINAL'
+   INS-82183_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82183_CYCLE_DURATION        = '0:01:00.0'
+
+   INS-82184_MODE_NAME             = 'NOMINAL'
+   INS-82184_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82184_CYCLE_DURATION        = '0:01:00.0'
+ 
+   INS-82185_MODE_NAME             = 'NOMINAL'
+   INS-82185_TRIGGER_OFFSET        = '0:01:00.0'
+   INS-82185_CYCLE_DURATION        = '0:01:00.0'
+
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_RSS_HGA_KA' )
+   NAIF_BODY_CODE                 += ( -82180 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_RSS_HGA_KU' )
+   NAIF_BODY_CODE                 += ( -82181 )
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_RSS_HGA_S' )
+   NAIF_BODY_CODE                 += ( -82182 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_RSS_HGA_X' )
+   NAIF_BODY_CODE                 += ( -82183 )
+
+   NAIF_BODY_NAME                 += ( 'CASSINI_RSS_LGA1' )
+   NAIF_BODY_CODE                 += ( -82184 )
+    
+   NAIF_BODY_NAME                 += ( 'CASSINI_RSS_LGA2' )
+   NAIF_BODY_CODE                 += ( -82185 )
+
+
+   INS-82180_PLATFORM_ID           = ( -82000 )
+   INS-82181_PLATFORM_ID           = ( -82000 )
+   INS-82182_PLATFORM_ID           = ( -82000 )
+   INS-82183_PLATFORM_ID           = ( -82000 )
+   INS-82184_PLATFORM_ID           = ( -82000 )
+   INS-82185_PLATFORM_ID           = ( -82000 )
+
+   \begintext
+
+

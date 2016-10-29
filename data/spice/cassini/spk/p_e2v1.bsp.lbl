@@ -1,0 +1,166 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "p_e2v1.xsp"
+PRODUCT_CREATION_TIME        = 1996-12-10T16:42:58
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-11-02T12:52:26
+STOP_TIME                    = 1998-05-26T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = 0
+SPACECRAFT_CLOCK_STOP_COUNT  = 0
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; p_e2v1.bsp LOG FILE
+;
+; Created 1996-11-18/16:58:04.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+SPK_FILE            = p_e2v1.bsp
+  SOURCE_NIO_FILE   = p_e2v1.nio
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 1997 NOV 02 12:53:28.000
+    END_TIME        = CAL-ET 1998 MAY 27 00:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+\beginlabel
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = {
+                                 "CAS"
+                               }
+DATA_SET_ID                  = "CAS-S-SPICE-SPK-V1.0"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "p_e2v1.xsp"
+PRODUCT_CREATION_TIME        = 1996-11-18T17:03:08
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-11-02T12:52:26
+STOP_TIME                    = 1998-05-26T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                                 "CAS"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+\endlabel
+ 
+\beginlabel
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = {
+                                 "CAS"
+                               }
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "p_e2v1.xsp"
+PRODUCT_CREATION_TIME        = 1996-11-19T10:50:40
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-11-02T12:52:26
+STOP_TIME                    = 1998-05-26T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                                 "CAS"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+\endlabel
+ 
+\beginlabel
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = {
+                                 "CAS"
+                               }
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "p_e2v1.xsp"
+PRODUCT_CREATION_TIME        = 1996-12-02T14:27:26
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-11-02T12:52:26
+STOP_TIME                    = 1998-05-26T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                                 "CAS"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+\endlabel
+ 
+\beginlabel
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "p_e2v1.xsp"
+PRODUCT_CREATION_TIME        = 1996-12-02T14:35:06
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-11-02T12:52:26
+STOP_TIME                    = 1998-05-26T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                                 "CASSINI"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+\endlabel
+ 
+\beginlabel
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "p_e2v1.xsp"
+PRODUCT_CREATION_TIME        = 1996-12-10T16:42:58
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "LAUNCH"
+PRODUCT_VERSION_TYPE         = "TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 1997-11-02T12:52:26
+STOP_TIME                    = 1998-05-26T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+\endlabel
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0051)
+ 
+ 
+Summary for: p_e2v1.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  1997 NOV 02 12:53:28.000        1998 MAY 27 00:00:00.000

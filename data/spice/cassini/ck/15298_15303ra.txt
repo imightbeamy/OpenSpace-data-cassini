@@ -1,0 +1,119 @@
+AACS C-Kernel Comparison
+
+
+Spice Version: CSPICE_N0063
+
+
+First CK (RECON): /cas/casops/dom/data/main2/sco_bc_kernel/15298_15303ra.bc
+
+PRODUCT_CREATION_TIME = 2015-313T02:15:17
+QUERY_START_TIME      = 2015-298T00:00:03
+QUERY_STOP_TIME       = 2015-303T00:00:00
+INTERVALS             = 5
+
+Interval Start (SCET)   Interval End (SCET)     Interval Duration
+---------------------   ---------------------   Gap Duration
+                                                HH:MM:SEC
+                                                -----------------
+2015-298T00:00:03.671   2015-298T02:00:11.625    2:00:07.954
+                                                 0:00:20.000
+2015-298T02:00:31.625   2015-298T21:05:15.438   19:04:43.813
+                                                 0:13:07.995
+2015-298T21:18:23.433   2015-301T10:51:06.024   61:32:42.591
+                                                 0:00:44.000
+2015-301T10:51:50.024   2015-302T15:20:57.371   28:29:07.347
+                                                 0:00:00.000
+2015-302T15:20:57.371   2015-303T00:00:00.923    8:39:03.552
+
+
+Gap Start (SCET)        Gap End (SCET)          Gap Duration
+---------------------   ---------------------   HH:MM:SEC
+                                                ------------
+2015-298T02:00:11.625   2015-298T02:00:31.625    0:00:20.000
+2015-298T21:05:15.438   2015-298T21:18:23.433    0:13:07.995
+2015-301T10:51:06.024   2015-301T10:51:50.024    0:00:44.000
+2015-302T15:20:57.371   2015-302T15:20:57.371    0:00:00.000
+
+
+Second CK (KPT): /aacs/TOUR/SIP/S91/as_flown/15264_15329pf_live.bc
+
+PRODUCT_CREATION_TIME = 2016-160T02:18:57
+QUERY_START_TIME      = 2015-264T02:48:00
+QUERY_STOP_TIME       = 2015-329T06:08:00
+INTERVALS             = 1
+
+Interval Start (SCET)   Interval End (SCET)     Interval Duration
+---------------------   ---------------------   Gap Duration
+                                                HH:MM:SEC
+                                                -----------------
+2015-264T02:48:00.000   2015-329T06:08:00.000 1563:20:00.001
+
+
+Gap Start (SCET)        Gap End (SCET)          Gap Duration
+---------------------   ---------------------   HH:MM:SEC
+                                                ------------
+
+
+Day No 1  (DOY 298-299)
+2015-298T00:00:03.441 to 2015-299T00:00:03.441
+Maximum Error
+X  0.13 mrad  at  2015-298T01:49:28.441
+Y  0.31 mrad  at  2015-298T07:07:48.441
+Z  9.78 mrad  at  2015-298T01:49:18.441
+
+Mean Error        1-Sigma Deviation
+X  0.01 mrad      X  0.011 mrad
+Y  0.02 mrad      Y  0.036 mrad
+Z  0.21 mrad      Z  0.538 mrad
+
+
+Day No 2  (DOY 299-300)
+2015-299T00:00:03.441 to 2015-300T00:00:03.441
+Maximum Error
+X  2.06 mrad  at  2015-299T14:41:33.441
+Y  1.96 mrad  at  2015-299T14:35:23.441
+Z 13.41 mrad  at  2015-299T20:42:38.441
+
+Mean Error        1-Sigma Deviation
+X  0.04 mrad      X  0.170 mrad
+Y  0.03 mrad      Y  0.127 mrad
+Z  0.19 mrad      Z  0.474 mrad
+
+
+Day No 3  (DOY 300-301)
+2015-300T00:00:03.441 to 2015-301T00:00:03.441
+Maximum Error
+X  1.94 mrad  at  2015-300T14:40:53.441
+Y  1.94 mrad  at  2015-300T14:38:23.441
+Z  6.96 mrad  at  2015-300T01:33:48.441
+
+Mean Error        1-Sigma Deviation
+X  0.07 mrad      X  0.201 mrad
+Y  0.05 mrad      Y  0.191 mrad
+Z  0.05 mrad      Z  0.227 mrad
+
+
+Day No 4  (DOY 301-302)
+2015-301T00:00:03.441 to 2015-302T00:00:03.441
+Maximum Error
+X  1.85 mrad  at  2015-301T22:01:38.441
+Y  1.97 mrad  at  2015-301T20:02:58.441
+Z  2.78 mrad  at  2015-301T22:25:53.441
+
+Mean Error        1-Sigma Deviation
+X  0.07 mrad      X  0.188 mrad
+Y  0.10 mrad      Y  0.287 mrad
+Z  0.25 mrad      Z  0.688 mrad
+
+
+Day No 5  (DOY 302-303)
+2015-302T00:00:03.441 to 2015-303T00:00:00.689
+Maximum Error
+X  2.02 mrad  at  2015-302T05:21:53.441
+Y  2.04 mrad  at  2015-302T05:20:33.441
+Z  2.68 mrad  at  2015-302T00:05:08.441
+
+Mean Error        1-Sigma Deviation
+X  0.04 mrad      X  0.158 mrad
+Y  0.07 mrad      Y  0.238 mrad
+Z  0.23 mrad      Z  0.522 mrad

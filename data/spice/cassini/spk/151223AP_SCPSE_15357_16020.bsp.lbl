@@ -1,0 +1,126 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "151223AP_SCPSE_15357_16020.xsp"
+PRODUCT_CREATION_TIME        = 2015-12-23T10:12:33
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2015-12-22T23:58:55
+STOP_TIME                    = 2016-01-19T23:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                               "CASSINI",
+                               "MERCURY BARYCENTER",
+                               "VENUS BARYCENTER",
+                               "EARTH BARYCENTER",
+                               "MARS BARYCENTER",
+                               "JUPITER BARYCENTER",
+                               "SATURN BARYCENTER",
+                               "URANUS BARYCENTER",
+                               "NEPTUNE BARYCENTER",
+                               "PLUTO BARYCENTER",
+                               "SUN",
+                               "MOON",
+                               "EARTH",
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+Created by Monte 109 on 2015/12/23 18:12 UTC.
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "151223AP_SCPSE_15357_16020.xsp"
+PRODUCT_CREATION_TIME        = 2015-12-23T10:12:33
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2015-12-22T23:58:55
+STOP_TIME                    = 2016-01-19T23:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = {
+                               "CASSINI",
+                               "MERCURY BARYCENTER",
+                               "VENUS BARYCENTER",
+                               "EARTH BARYCENTER",
+                               "MARS BARYCENTER",
+                               "JUPITER BARYCENTER",
+                               "SATURN BARYCENTER",
+                               "URANUS BARYCENTER",
+                               "NEPTUNE BARYCENTER",
+                               "PLUTO BARYCENTER",
+                               "SUN",
+                               "MOON",
+                               "EARTH",
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN"
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+ 
+BRIEF -- Version 3.0.0, January 14, 2008 -- Toolkit Version N0064
+ 
+ 
+Summary for: 151223AP_SCPSE_15357_16020.bsp
+ 
+Bodies                Start of Interval (ET)          End of Interval (ET)
+-------               -----------------------------   -----------------------------
+-82 CASSINI           2015 DEC 23 00:00:00.000        2016 JAN 20 00:00:00.000
+1 MERCURY BARYCENTER              Same coverage as previous object
+2 VENUS BARYCENTER                Same coverage as previous object
+3 EARTH BARYCENTER                Same coverage as previous object
+4 MARS BARYCENTER                 Same coverage as previous object
+5 JUPITER BARYCENTER              Same coverage as previous object
+6 SATURN BARYCENTER               Same coverage as previous object
+7 URANUS BARYCENTER               Same coverage as previous object
+8 NEPTUNE BARYCENTER              Same coverage as previous object
+9 PLUTO BARYCENTER                Same coverage as previous object
+10 SUN                            Same coverage as previous object
+301 MOON                          Same coverage as previous object
+399 EARTH                         Same coverage as previous object
+601 MIMAS                         Same coverage as previous object
+602 ENCELADUS                     Same coverage as previous object
+603 TETHYS                        Same coverage as previous object
+604 DIONE                         Same coverage as previous object
+605 RHEA                          Same coverage as previous object
+606 TITAN                         Same coverage as previous object
+607 HYPERION                      Same coverage as previous object
+608 IAPETUS                       Same coverage as previous object
+609 PHOEBE                        Same coverage as previous object
+699 SATURN                        Same coverage as previous object

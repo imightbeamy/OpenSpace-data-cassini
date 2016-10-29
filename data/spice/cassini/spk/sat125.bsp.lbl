@@ -1,0 +1,90 @@
+ 
+; /usr3/Ephemerides/Saturn/sat125.bsp LOG FILE
+;
+; Created 2002-05-28/16:10:16.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+SPK_FILE            = /usr3/Ephemerides/Saturn/sat125.bsp
+  INCLUDE_TEXT_FILE = /usr3/Ephemerides/Delivery/Saturn/sat125.txt
+  SOURCE_NIO_FILE   = /usr3/Ephemerides/Saturn/sat125.nio
+ 
+; END NIOSPK COMMANDS
+ 
+                      Satellite Ephemeris File Release
+ 
+ 
+Satellite Ephemeris: SAT125
+ 
+Location: ssd.jpl.nasa.gov/pub/eph/satellites/nio/sat125.nio
+Location: ssd.jpl.nasa.gov/pub/eph/satellites/xsp/sat125.xsp
+Size(nio): 2843648 bytes
+ 
+Enter SATEPHMERGE/11 22-Oct-2001 14:45:47.541 linked 31-May-2001 09:59:55
+Fit to Earthbased data
+Ephemeris Version Number: 11
+Timespan from JED  2451757.500(01-AUG-2000) to JED  2460667.500(23-DEC-2024)
+File Epoch Julian Date: 2451600.50
+Master Interval: 18.0000 Days
+Equinox Reference Julian Date: 2451545.00
+Planetary Ephemeris Number: DE-0405/LE-0405
+ 
+Bodies on the File:
+ 
+    Name          Number          GM                NDIV   NDEG   Model
+    00/s1          619     0.000000000000000E+00      1      4    SATINT
+    00/s2          620     0.000000000000000E+00      1      4    SATINT
+    00/s3          621     0.000000000000000E+00      1      5    SATINT
+    00/s4          622     0.000000000000000E+00      1      6    SATINT
+    00/s5          623     0.000000000000000E+00      1      5    SATINT
+    00/s6          624     0.000000000000000E+00      1      5    SATINT
+    00/s7          625     0.000000000000000E+00      1      4    SATINT
+    00/s8          626     0.000000000000000E+00      1      4    SATINT
+    00/s9          627     0.000000000000000E+00      1      4    SATINT
+    00/s10         628     0.000000000000000E+00      1      4    SATINT
+    00/s11         629     0.000000000000000E+00      1      4    SATINT
+    00/s12         630     0.000000000000000E+00      1      4    SATINT
+    Saturn         699     3.793165156400000E+07      3     15    SATINT
+    System                 3.794062976400000E+07
+ 
+Additional Constants on the File:
+ 
+    AU       1.495978706910000E+08   RADIUS   6.033000000000000E+04
+    J602     2.137400000000000E-02   POLTIM   2.451545000000000E+06
+    ZACPL6   4.058900000000000E+01   ZDEPL6   8.353700000000001E+01
+    DACPL6  -3.600000000000000E-02   DDEPL6  -4.000000000000000E-03
+    WPL6     3.890000000000000E+01   WDP6     8.107939024000000E+02
+    606GM    8.978200000000001E+03   GM0500   1.267127644000000E+08
+    GM0700   5.794548600000000E+06   GM0800   6.836534900000000E+06
+    GM1000   1.327132332402215E+11
+ 
+Chebyshev interpolation error:  647.0 meters
+ 
+Release to: Horizons/NAIF                      Time: 23-Oct-2001 12:00:17
+ 
+Preparer: R. A. Jacobson
+ 
+Comments:
+Update of Irregular Saturnian satellite ephemerides with observations
+through 21 October 2001.
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0052)
+ 
+ 
+Summary for: sat125.bsp
+ 
+Bodies      Start of Interval (ET)          End of Interval (ET)
+-------     -----------------------------   -----------------------------
+619         2000 AUG 01 00:00:00.000        2024 DEC 23 00:00:00.000
+620                     Same coverage as previous object
+621                     Same coverage as previous object
+622                     Same coverage as previous object
+623                     Same coverage as previous object
+624                     Same coverage as previous object
+625                     Same coverage as previous object
+626                     Same coverage as previous object
+627                     Same coverage as previous object
+628                     Same coverage as previous object
+629                     Same coverage as previous object
+630                     Same coverage as previous object
+699 SATURN              Same coverage as previous object

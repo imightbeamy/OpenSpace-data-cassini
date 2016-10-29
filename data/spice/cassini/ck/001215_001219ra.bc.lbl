@@ -1,0 +1,133 @@
+MISSION_NAME             = CASSINI
+SPACECRAFT_NAME          = CASSINI
+DATA_SET_ID              = SPICE_CK_FILE
+KERNEL_TYPE_ID           = CK
+PRODUCT_ID               = 001215_001219ra.xc
+PRODUCER_ID              = CAS_AACS
+MISSION_ID               = "82"
+MISSION_PHASE_NAME       = C-23
+PRODUCT_VERSION_TYPE     = ACTUAL
+PLATFORM_OR_MOUNTING_NAME = UNK
+TARGET_NAME              = N/A
+INSTRUMENT_NAME          = UNK
+INSTRUMENT_ID            = -82000
+NOTE                     = 'SPICE transfer format CK files'
+PRODUCT_CREATION_TIME    = 2001-005T22:45:15
+ 
+ 
+********************************************************************************
+MSOPCK SETUP FILE: ckernel.setup
+********************************************************************************
+ 
+ 
+   This is a sample MSOP CK setup file for conversion of a "pre-parsed"
+   Cassini actual attitude data file (originally in the query2plot ECSV
+   format) to a type 3 CK file. The following are meaning of the setup
+   keywords (only for those which are not obvious :-)
+ 
+      INSTRUMENT_ID           = -82000
+ 
+         NAIF ID orientation for which will be stored in CK file.
+ 
+      REFERENCE_FRAME_NAME    = 'J2000'
+ 
+         Assume that orientation is given with respect to the J2000.
+ 
+      ANGULAR_RATE_PRESENT    = 'YES'
+ 
+         Input file contains angular rates.
+ 
+      QUATERNION_NORM_ERROR   = 1.0e-3
+ 
+         If | 1 - quaternion norm | > 1.0e-3, input record is "bad" and
+         will not be written to output CK file.
+ 
+      ANGULAR_RATE_THRESHOLD  = ( 0.01745329, 0.01745329, 0.01745329 )
+ 
+         Absolute value of any individual angular rate component cannot
+         exceed 0.01745329 (1 deg/sec converted to rad/sec)
+ 
+      MAXIMUM_VALID_INTERVAL  = 16
+ 
+         interpolation over gaps between data points that are longer than
+         16 seconds will be prohibited.
+ 
+      INPUT_TIME_TYPE         = 'SCLK'
+ 
+         Input time time type is SCLK (can also be UTC)
+ 
+      INPUT_DATA_TYPE         = 'MSOP QUATERNIONS'
+ 
+         'MSOP QUATERNIONS' means conjugated (or non-SPICE format)
+         quaternion. Program can also deal with SPICE quaternions,
+         Euler angles and matricies.
+ 
+      ANGULAR_RATE_FRAME      = 'INSTRUMENT'
+ 
+         This tells the program that angular rate vector is given
+         in the s/c body frame (rather than J2000 frame.)
+ 
+   See MSOPCK User's Guide for more details.
+ 
+   BVS/NAIF, February 8, 2000
+ 
+   Actual setup keywords:
+ 
+   \begindata
+ 
+      LSK_FILE_NAME           = '/afs/jpl/group/casops/SCO/APT/SPICE/naif0007.tls'
+      SCLK_FILE_NAME          = '/afs/jpl/group/casops/SCO/APT/SCLKSCET/cas00053.tsc'
+ 
+      INTERNAL_FILE_NAME      = 'ckernel.file'
+      COMMENTS_FILE_NAME      = 'ckernel.comments'
+ 
+      CK_TYPE                 = 3
+      CK_SEGMENT_ID           = 'TELEMETRY CASSINI S/C ATTITUDE'
+      INSTRUMENT_ID           = -82000
+      REFERENCE_FRAME_NAME    = 'J2000'
+      ANGULAR_RATE_PRESENT    = 'YES'
+ 
+      QUATERNION_NORM_ERROR   = 1.0e-3
+      ANGULAR_RATE_THRESHOLD  = ( 0.01745329, 0.01745329, 0.01745329 )
+      MAXIMUM_VALID_INTERVAL  = 16
+ 
+      INPUT_TIME_TYPE         = 'SCLK'
+      INPUT_DATA_TYPE         = 'MSOP QUATERNIONS'
+      ANGULAR_RATE_FRAME      = 'INSTRUMENT'
+ 
+      PRODUCER_ID             = 'Cassini AACS Operations'
+ 
+   \begintext
+ 
+********************************************************************************
+RUN-TIME OBTAINED META INFORMATION:
+********************************************************************************
+ 
+PRODUCT_CREATION_TIME = 2001-01-05T22:41:07
+START_TIME            = 2000-12-15T19:00:01.598
+STOP_TIME             = 2000-12-19T18:01:48.229
+ 
+********************************************************************************
+INTERPOLATION INTERVALS IN THE FILE SEGMENTS:
+********************************************************************************
+ 
+SEG.SUMMARY: ID -82000, COVERG: 2000-12-15T19:00:01.598 2000-12-19T18:01:48.229
+--------------------------------------------------------------------------------
+      2000-12-15T19:00:01.598    2000-12-15T19:07:17.595
+      2000-12-15T19:30:17.586    2000-12-16T09:20:45.241
+      2000-12-16T10:08:41.221    2000-12-16T20:49:48.954
+      2000-12-16T20:55:04.952    2000-12-16T21:07:56.947
+      2000-12-16T21:08:40.947    2000-12-16T22:53:24.903
+      2000-12-16T22:56:08.902    2000-12-16T23:53:40.878
+      2000-12-16T23:54:24.878    2000-12-17T10:24:28.616
+      2000-12-17T10:26:16.615    2000-12-17T17:54:52.429
+      2000-12-17T18:02:16.426    2000-12-18T12:59:15.953
+      2000-12-18T13:37:59.937    2000-12-19T09:31:43.441
+      2000-12-19T09:45:51.435    2000-12-19T15:20:08.296
+      2000-12-19T15:20:36.296    2000-12-19T16:53:28.258
+      2000-12-19T16:54:44.257    2000-12-19T16:58:56.255
+      2000-12-19T17:01:16.254    2000-12-19T18:01:48.229
+ 
+ 
+********************************************************************************
+ 

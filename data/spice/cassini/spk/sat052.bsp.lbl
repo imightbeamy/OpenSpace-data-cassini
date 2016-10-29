@@ -1,0 +1,62 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "sat052.xsp"
+PRODUCT_CREATION_TIME        = 1997-253T08:25:05
+PRODUCER_ID                  = "DUANE ROTH, X-30613"
+MISSION_PHASE_NAME           = "PROBE"
+PRODUCT_VERSION_TYPE         = "PROBE_RELEASE_TEST"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2003-11-16T23:58:58
+STOP_TIME                    = 2014-12-18T23:58:58
+SPACECRAFT_CLOCK_START_COUNT = 0
+SPACECRAFT_CLOCK_STOP_COUNT  = 0
+TARGET_NAME                  = {
+                               "MIMAS",
+                               "ENCELADUS",
+                               "TETHYS",
+                               "DIONE",
+                               "RHEA",
+                               "TITAN",
+                               "HYPERION",
+                               "IAPETUS",
+                               "PHOEBE",
+                               "SATURN",
+                               }
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; sat052.bsp LOG FILE
+;
+; Created 1997-01-29/10:45:47.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+SPK_FILE            = sat052.bsp
+  SOURCE_NIO_FILE   = /cnav/inputs/ephem/sat052.nio
+    BODIES          = 601 602 603 604 605 606 607 608 609 699
+    BEGIN_TIME      = CAL-ET 2003 NOV 17 00:00:00.000
+    END_TIME        = CAL-ET 2014 DEC 19 00:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+Brief.  Version: 2.1        (SPICE Toolkit N0051)
+ 
+ 
+Summary for: sat052.bsp
+ 
+Bodies         Start of Interval (ET)          End of Interval (ET)
+-------        -----------------------------   -----------------------------
+601 MIMAS      2003 NOV 17 00:00:00.000        2014 DEC 19 00:00:00.000
+602 ENCELADUS              Same coverage as previous object
+603 TETHYS                 Same coverage as previous object
+604 DIONE                  Same coverage as previous object
+605 RHEA                   Same coverage as previous object
+606 TITAN                  Same coverage as previous object
+607 HYPERION               Same coverage as previous object
+608 IAPETUS                Same coverage as previous object
+609 PHOEBE                 Same coverage as previous object
+699 SATURN                 Same coverage as previous object
