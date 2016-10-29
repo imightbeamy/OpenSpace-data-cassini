@@ -1,5 +1,9 @@
 local BENNU_BODY = "2101955"
 
+CassiniKernels = {
+    "${OPENSPACE_DATA}/spice/cassini/spk/000202R_SK_LP0_V1P32.bsp",
+}
+
 return {
     ------------------------
     --     Osiris Rex     --
@@ -30,6 +34,7 @@ return {
                 Type = "SpiceTranslation",
                 Body = "OSIRIS-REX",
                 Observer = "SUN",
+                Kernels = CassiniKernels,
             },
             Rotation = {
                 Type = "SpiceRotation",
